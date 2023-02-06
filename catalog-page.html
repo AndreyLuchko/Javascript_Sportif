@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Oswald:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style/normalize.css">
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./style/catalog-page.css">
+    <link rel="stylesheet" href="./components/Products/products.css">
+    <title>Catalog Page</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="header__container">
+                <div class="header__logo">
+                    <a href="#">
+                        <img src="/img/svg/logo.svg" alt="logo">
+                    </a>
+                </div>
+                <div class="header__menu menu">
+                    <nav class="menu__nav">
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">SHORTS</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">PANTS</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">SHIRTS</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">ACCESSORIES</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">SALE</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="menu__search">
+                        <input type="search" placeholder="SEARCH ENTIRE STORE HERE">
+                    </div>
+                    <div class="menu__icon">
+                        <span></span>
+                    </div>
+                </div>
+
+            </div>
+        </header>
+        <main>
+           <section class="search">
+            <div class="search__container">
+                <div class="search__links">
+                    <a href="#">
+                        <img src="/img/svg/home.svg" alt="home">
+                    </a>
+                    <p class="search-after"><a href="#">HOME</a></p>
+                    <p><a href="#">SHORTS</a></p>
+                </div>
+                <div class="search__block">
+                    <input type="search" name="search" id="search" placeholder="SEARCH">
+                </div>
+            </div>
+           </section>
+           <section class="shorts">
+            <div class="shorts__container">
+                <aside class="shorts__filter filter">
+                    <details class="filter-element size">
+                        <summary class="size-name _name">SIZE</summary>
+                        <div class="size-block">
+                            <p class="size-item _size">
+                                <input type="checkbox" name="size30" id="size30">
+                                <label for="size30">30</label>
+                            </p>
+                            <p class="size-item _size">
+                                <input type="checkbox" name="size32" id="size32">
+                                <label for="size32">32</label>
+                            </p>
+                            <p class="size-item _size">
+                                <input type="checkbox" name="size34" id="size34">
+                                <label for="size34">34</label>
+                            </p>
+                            <p class="size-item _size">
+                                <input type="checkbox" name="size36" id="size36">
+                                <label for="size36">36</label>
+                            </p>
+                            <p class="size-item _size">
+                                <input type="checkbox" name="size38" id="size38">
+                                <label for="size38">38</label>
+                            </p>
+                            <p class="size-item _size">
+                                <input type="checkbox" name="size40" id="size40">
+                                <label for="size40">40</label>
+                            </p>
+                            <p class="size-item _size">
+                                <input type="checkbox" name="size42" id="size42">
+                                <label for="size42">42</label>
+                            </p>
+                            <p class="size-item _size">
+                                <input type="checkbox" name="size44" id="size44">
+                                <label for="size44">44</label>
+                            </p>
+                            <p class="size-item _size">
+                                <input type="checkbox" name="size46" id="size46">
+                                <label for="size46">46</label>
+                            </p>
+                            
+                        </div>
+                    </details>
+                    <hr>
+                    <details class="filter-element color">
+                        <summary class="color-name _name">COLOR</summary>
+                        <div class="size-block">
+                            <p class="size-item _color">
+                                <input type="checkbox" name="black" id="black">
+                                <label class="black" for="black"></label>
+                            </p>
+                            <p class="size-item _color">
+                                <input type="checkbox" name="brown" id="brown">
+                                <label class="brown" for="brown"></label>
+                            </p>
+                            <p class="size-item _color">
+                                <input type="checkbox" name="blue" id="blue">
+                                <label class="blue" for="blue"></label>
+                            </p>
+                            <p class="size-item _color">
+                                <input type="checkbox" name="green" id="green">
+                                <label class="green" for="green"></label>
+                            </p>
+                            <p class="size-item _color">
+                                <input type="checkbox" name="grey" id="grey">
+                                <label class="grey" for="grey"></label>
+                            </p>
+                            <p class="size-item _color">
+                                <input type="checkbox" name="yellow" id="yellow">
+                                <label class="yellow" for="yellow"></label>
+                            </p>
+                            <p class="size-item _color">
+                                <input type="checkbox" name="white" id="white">
+                                <label class="white" for="white"></label>
+                            </p>
+                        </div>
+                    </details>
+                    <hr>
+                    <details class="filter-element bottoms">
+                       <summary class="bottoms-name _name">BOTTOMS</summary>
+                       <ul class="bottoms-block">
+                        <li>
+                            <input type="checkbox" name="short" id="short">
+                            <label for="short">Short</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="short" id="cargo">
+                            <label for="cargo">Cargo</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="short" id="plain">
+                            <label for="plain">Plain Front</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="short" id="denim">
+                            <label for="denim">Denim Jean</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="short" id="chino">
+                            <label for="chino">Chino</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="short" id="swim">
+                            <label for="swim">Swim</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="short" id="pleated">
+                            <label for="pleated">Pleated Front</label>
+                        </li>
+                       </ul>
+                    </details>
+                    <hr>
+                    <details class="filter-element inseam">
+                        <summary class="inseam-name _name">INSEAM</summary>
+                    </details>
+                    <hr>
+                    <details class="filter-element fabric">
+                        <summary class="fabric-name _name">SUSTAINABLE FABRIC</summary>
+                    </details>
+                    <hr>
+                    <details class="filter-element collections">
+                        <summary class="collections-name _name">COLLECTIONS</summary>
+                    </details>
+                </aside>
+                <div class="shorts__block">
+        
+                </div>
+                <div class="shorts-slider slider">
+                    <p class="slider-item">
+                        <input type="radio" name="page" id="page1">
+                        <label for="page1">1</label>
+                    </p>
+                    <p class="slider-item">
+                        <input type="radio" name="page" id="page2">
+                        <label for="page2">2</label>
+                    </p>
+                    <p class="slider-item _next">
+                        <input type="radio" name="page" id="page_next">
+                        <label for="page_next"></label>
+                    </p>
+                </div>
+            </div>
+           </section>
+        </main>
+        <footer>
+            <div class="footer-top">
+                <div class="footer__container">
+                    <button class="arrow-btn"></button>
+                    <div class="footer-menu">
+                        <div class="footer-block">
+                            <p>ORDERING ONLINE</p>
+                            <nav class="footer__navbar">
+                                <ul class="footer-nav">
+                                    <li class="footer-nav-item">
+                                        <a class="footer-nav-link" href="#">Account Login</a>
+                                    </li>
+                                    <li class="footer-nav-item">
+                                        <a class="footer-nav-link" href="#">Our Guarantee</a>
+                                    </li>
+                                    <li class="footer-nav-item">
+                                        <a class="footer-nav-link" href="#">Sportif Stretch Guide</a>
+                                    </li>
+                                    <li class="footer-nav-item">
+                                        <a class="footer-nav-link" href="#">Size Chart & Sizing Information</a>
+                                    </li>
+                                    <li class="footer-nav-item">
+                                        <a class="footer-nav-link" href="#">Hemming Information</a>
+                                    </li>
+                                    <li class="footer-nav-item">
+                                        <a class="footer-nav-link" href="#">Ordering & Payment</a>
+                                    </li>
+                                    <li class="footer-nav-item">
+                                        <a class="footer-nav-link" href="#">Shipping Information</a>
+                                    </li>
+                                    <li class="footer-nav-item">
+                                        <a class="footer-nav-link" href="#">Returns</a>
+                                    </li>
+                                </ul>
+
+                            </nav>
+                        </div>
+                        <div class="footer-block">
+                            <p>ABOUT SPORTIF</p>
+                            <nav class="footer__navbar">
+                                <ul class="footer-nav">
+                                    <li class="footer-nav-item">
+                                        <a class="footer-nav-link" href="#">COVID-19 Response</a>
+                                    </li>
+                                    <li class="footer-nav-item">
+                                        <a class="footer-nav-link" href="#">History</a>
+                                    </li>
+                                    <li class="footer-nav-item">
+                                        <a class="footer-nav-link" href="#">Legacy</a>
+                                    </li>
+                                    <li class="footer-nav-item">
+                                        <a class="footer-nav-link" href="#">Good Sam Program</a>
+                                    </li>
+                                    <li class="footer-nav-item">
+                                        <a class="footer-nav-link" href="#">Privacy & Security</a>
+                                    </li>
+                                    <li class="footer-nav-item">
+                                        <a class="footer-nav-link" href="#">Terms & Conditions</a>
+                                    </li>
+                                    <li class="footer-nav-item">
+                                        <a class="footer-nav-link" href="#">Careers</a>
+                                    </li>
+                                </ul>
+
+                            </nav>
+                        </div>
+                        <div class="footer-block">
+                            <p>QUICK LINKS</p>
+                            <nav class="footer__navbar">
+                                <ul class="footer-nav">
+                                    <li class="footer-nav-item">
+                                        <a class="footer-nav-link" href="#">FAQs</a>
+                                    </li>
+                                    <li class="footer-nav-item">
+                                        <a class="footer-nav-link" href="#">Shop Online Catalog</a>
+                                    </li>
+                                    <li class="footer-nav-item">
+                                        <a class="footer-nav-link" href="#">Contact Us</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="footer-block">
+                            <p>GET TO KNOW US</p>
+                            <nav class="footer__navbar">
+                                <ul class="footer-nav">
+                                    <li class="footer-nav-item">
+                                        <a class="footer-nav-link" href="#">Sign up for our weekly newsletter and get a
+                                            10% off coupon by email for your first order!</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <form action="" method="post" class="footer-form">
+                                <label for="email">Sign Up for Our Newsletter:</label>
+                                <input type="email" name="email" id="email" placeholder="EMAIL ADDRESS">
+                                <input type="submit" value="SUBSCRIBE">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-rights">
+                <div class="footer__container">
+                    <p>©2021 Sportif Mailorder. All Rights Reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+    <script src="./components/Constants/catalog.js"></script>
+    <script src="./utils/localStorage.js"></script>
+    <script src="./components/Products/products.js"></script>
+    <script src="./main_js/main.js"></script>
+</body>
+
+</html>
