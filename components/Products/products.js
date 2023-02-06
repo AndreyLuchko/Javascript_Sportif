@@ -23,9 +23,9 @@ class Product {
             shortsBlockHtml +=
                 `
             <div class="card-item" id=${item.id}>
-                <div class="card-image">
+                <a class="card-image" href="product-page.html">
                     <img src=${item.image} alt="short image">
-                </div>
+                </a>
                 <div class="card-name">
                     <p class="name-item">${item.name}</p>
                 </div>
