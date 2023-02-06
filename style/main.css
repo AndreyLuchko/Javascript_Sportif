@@ -90,7 +90,7 @@ footer {
     padding: 8px 13px 8px 71px;
     border: 1px solid #A04955;
     border-radius: 54px;
-    background-image: url(/img/svg/search\ icon.svg);
+    background-image: url(../img/svg/search_icon.svg);
     background-repeat: no-repeat;
     background-position: top 50% left 38px;
 }
@@ -282,7 +282,7 @@ footer {
     color: #FFFFFF;
     padding: 4px 30px 4px 40px;
     background-color: #A04955;
-    background-image: url(/img/svg/shopping\ bag.svg);
+    background-image: url(../img/svg/shopping_bag.svg);
     background-repeat: no-repeat;
     background-position: top 50% left 8px;
     border: none;
@@ -413,7 +413,7 @@ footer {
 /* ---------------sportif----------------------- */
 
 .sportif {
-    background-image: url(/img/bg\ image.jpg);
+    background-image: url(../img/bg_image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 550px;
@@ -553,7 +553,7 @@ footer {
 .legasy-image {
     width: 276px;
     height: 270px;
-    background-image: url(/img/50years.png);
+    background-image: url(../img/50years.png);
     background-repeat: no-repeat;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     position: absolute;
@@ -599,7 +599,7 @@ footer {
     position: absolute;
     right: 0;
     top: -58%;
-    background-image: url(/img/Arrow.png);
+    background-image: url(../img/Arrow.png);
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }

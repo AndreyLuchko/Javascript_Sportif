@@ -117,7 +117,7 @@
 }
 .btn2 {
     background: none;
-    background-image: url(/img/svg/like\ 1.svg);
+    background-image: url(../../img/svg/like_1.svg);
     background-repeat: no-repeat;
     background-position: top 50% left 40px;
     border: 1px solid #000000;
@@ -125,7 +125,7 @@
     padding: 10px 69px 10px 88px;
 }
 .btn1 {
-    background-image: url(/img/svg/shopping-bag\ 1.svg);
+    background-image: url(../../img/svg/shopping_bag_1.svg);
     background-position: top 60% left 25%;
     padding: 10px 84px 10px 124px;
 }
@@ -180,10 +180,10 @@
     left: -45px;
 }
 .descr-delivery p:first-child:before { 
-    content:url(/img/svg/free-delivery\ 1.svg);
+    content:url(../../img/svg/free_delivery_1.svg);
 }
 .descr-delivery p:last-child::before { 
-    content:url(/img/svg/exchange\ 1.svg);
+    content:url(../../img/svg/exchange_1.svg);
 }
 
 /* ---------------details-------------------------------------------------------- */
@@ -303,7 +303,7 @@
 
 }
 .form__elem::before {
-    content: url(/img/svg/group_star.svg);
+    content: url(../../img/svg/group_star.svg);
     display: block;
     overflow: auto;  
 }
@@ -341,7 +341,7 @@
 .rating-label:checked ~ .rating-label:hover {
     width: 52px;
     height: 52px;
-    background-image: url(/img/Star5.svg);
+    background-image: url(../../img/Star5.svg);
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -349,7 +349,7 @@
 .rating-item:checked ~ .rating-label {
     width: 52px;
     height: 52px;
-    background-image: url(/img/Star5.svg);
+    background-image: url(../../img/Star5.svg);
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -427,7 +427,7 @@ textarea::placeholder {
         content: "";
         width: 240px;
         height: 45px;
-        background-image: url(/img/svg/group_star.svg);
+        background-image: url(../../img/svg/group_star.svg);
         background-size: contain;
         background-repeat: no-repeat;
         margin-left: 200px;

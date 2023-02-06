@@ -23,7 +23,7 @@
     right: 0;
     width: 20px;
     height: 20px;
-    background-image: url(/img/svg/right_arrow.svg);
+    background-image: url(../img/svg/right_arrow.svg);
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -81,7 +81,7 @@
     position: relative;
 }
 ._name::before {
-    content: url(/img/svg/top_arrow.svg);
+    content: url(../img/svg/top_arrow.svg);
     position: absolute;
     top: 0;
     right: 0;
@@ -212,7 +212,7 @@ summary {
 ._next label {
     width: 20px;
     height: 20px;
-    background-image: url(/img/svg/right-arrow\ 3.svg);
+    background-image: url(../img/svg/right_arrow_3.svg);
     background-repeat: no-repeat;
     background-size: cover;
     top: 50%;
